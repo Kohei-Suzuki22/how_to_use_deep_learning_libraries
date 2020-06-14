@@ -43,6 +43,6 @@ if __name__ == '__main__':
 
   ## モデルの評価の場合:                      model.evaluate()
   ## モデルの用いてテストデータの出力を表示:   model.predict()
-  loss,acc = model.evaluate(x_test,t_test,verbose=0)
+  loss,acc = model.evaluate(x_test,t_test,verbose=0)    # model.evaluate() モデルの評価
   print("")
   print("test_loss: {:.3f}, test_acc: {:.3f}".format(loss,acc))
